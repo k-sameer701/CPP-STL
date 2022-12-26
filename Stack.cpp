@@ -1,0 +1,24 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main(){
+    // Declaration:
+    stack <string> s;
+
+    // Inserting Values:
+    s.push("love");
+    s.push("babbar");
+    s.push("Kumar");
+
+    cout << "Top Element: " << s.top() << endl;
+
+    s.pop();
+
+    cout << "Top Element: " << s.top() << endl;
+    cout << "Size of stack: " << s.size() << endl;
+    cout << "Empty or Not: " << s.empty() << endl;
+
+    
+    
+}
